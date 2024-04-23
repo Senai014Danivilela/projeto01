@@ -6,9 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    background-color: rgb(188, 184, 184);
+    background-color: rgb(134, 130, 130);
+    background-image: url(Via-Lactea.jpg);
 }
-
 
 #cabecalho{
     height:150px;
@@ -16,6 +16,9 @@ body{
     width: 95%;
     margin: 0 auto;
     text-align: center;
+    border-radius: 30px;
+    color: aliceblue;
+   
 }
 
 
@@ -26,17 +29,22 @@ body{
     float: left;
     margin-left: 37px;
     margin-top: 10px;
+    border-radius: 30px;
+    color: aliceblue;
 }
 
 
 #conteudo{
     height: 500px;
     width: 800px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(77, 74, 74);
     float: left;
     margin-top: 10px;
     margin-left: 5px;
+    border-radius: 30px;
+    color: aliceblue;
 }
+
 
 
 #lado{
@@ -47,8 +55,11 @@ body{
     margin-left: 5px;
     margin-top: 10px;
     margin-block-end: 5px;
-
+    border-radius: 20px;
+    color: aliceblue;
 }
+
+
 
 
 #rodape{
@@ -58,16 +69,19 @@ body{
     width: 95%;
     margin: 0 auto;
     text-align: center;
+    border-radius: 30px;
+    color: aliceblue;
 }
+
 
 
 h1{
     text-align: center;
 }
 #conteudo2{
-    height: 500px;
+    height: 1000px;
     width: 1400px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(1, 1, 1);
 
     margin-top: 10px;
     margin-right: 37px;
@@ -75,19 +89,20 @@ h1{
   }
   
 
-.button {
-    background-color: #d14646; /* Green */
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  .button {border-radius: 50%;}
-
-
-  
+  button {
+    border-radius: 20px; /* Define o raio da borda para deixar o botão arredondado */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    /*background-color: #06eb6d;  Cor de fundo do botão */
+    background-color: #00c0fa;
+    color: white; /* Cor do texto do botão */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    text-decoration: none; /* Remove a sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um bloco inline */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+    opacity: 0.8; /* Define a opacidade inicial do menu */
+    transition: opacity 0.3s ease; /* transição */
+    
+}
+button:hover {
+    opacity: 1; /* Ao passar o mouse sobre o menu, a opacidade será 1 (totalmente visível) */
+}
